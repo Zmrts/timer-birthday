@@ -26,16 +26,7 @@ aside {
   display: block;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
+
 input ::-ms-clear {
   display: none;
 }
@@ -62,8 +53,6 @@ img {
 
 body {
   background-color: #120f14;
-  min-width: 100vw;
-  min-height: 100vh;
   background-image: url(/public/img/pattern-hills.svg), url(/public/img/bg-stars.svg);
   background-position: bottom center, center;
   background-repeat: no-repeat, no-repeat;
@@ -80,6 +69,7 @@ body {
 .wrapper {
   max-width: 1280px;
   min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
