@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { TimerItem } from "./TimerItem";
 
 function Timer() {
-  const targetDate = "2023-10-24 18:24:00";
+  const targetDate = "2024-10-21 23:59:59";
 
 
 
